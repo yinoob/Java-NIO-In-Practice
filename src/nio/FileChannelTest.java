@@ -8,6 +8,7 @@ import java.nio.channels.FileChannel;
 
 public class FileChannelTest {
     public static void main(String[] args) throws IOException {
+
         RandomAccessFile file = new RandomAccessFile("F:\\a.txt","rw");
         FileChannel channel = file.getChannel();
 
